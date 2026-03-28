@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta | Valorant Strategy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="galeria\media\logo 1.png">
+</head>
+<body class="meta">
+    <!-- Header -->
+    <header class="header">
+        <nav class="menu-top">
+            <div class="logo">Valorant Strategy</div>
+            <ul class="menu-lista">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="economia.html">Economia</a></li>
+                <li><a href="composicion.html">Composicion</a></li>
+                <li><a href="meta.html">Meta</a></li>
+                <li><a href="estrategia.html">Estrategia</a></li>
+            </ul>
+            <a class="btn btn-chico" href="#">Unete a Discord</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main id="inicio">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="contenedor">
+                <div class="hero-texto">
+                    <p class="eyebrow">Meta actual</p>
+                    <h1>Lo que domina el juego</h1>
+                    <p class="lead">
+                        El meta es el conjunto de agentes, composiciones y decisiones que hoy
+                        ofrecen mejores resultados. Cambia con cada parche y se define por
+                        eficiencia, consistencia y control del mapa.
+                    </p>
+                    <div class="hero-acciones">
+                        <a class="btn" href="#meta-composiciones">Ver meta</a>
+                        <a class="btn btn-ghost" href="#meta">Como se define</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-glow"></div>
+            <div class="scroll">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Meta -->
+        <section id="meta" class="seccion">
+            <div class="contenedor">
+                <div class="seccion-titulo seccion-marker">
+                    <div class="seccion-titulo-row">
+                        <h2>Meta mas jugado</h2>
+                    </div>
+                    
+                    <p class="lead">
+                        El meta cambia dependiendo del mapa, los agentes y las estrategias. Lo importante no es solo la composición, sino cómo cada rol trabaja en equipo para controlar el mapa, obtener información y ejecutar los sitios.
+                    </p>
+                </div>
+
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <h3>Balanceado (Estándar)</h3>
+                        <p><strong>Composición:</strong></p>
+                        <p>1 Duelista</p>
+                        <p>1 Iniciador</p>
+                        <p>1 Controlador</p>
+                        <p>1 Centinela</p>
+                        <p>1 Flex (puede ser otro iniciador o duelista)</p>
+                        <p>
+                            Es la composición más equilibrada. Tiene entrada al sitio, información,
+                            humos y defensa. Es la más estable y se usa en competitivo porque funciona
+                            en casi todos los mapas.
+                        </p>
+                        <p><strong>Objetivo:</strong> Equipo balanceado para atacar y defender bien.</p>
+                    </article>
+
+                    <article class="tarjeta">
+                        <h3>Doble Controlador</h3>
+                        <p><strong>Composición:</strong></p>
+                        <p>1 Duelista</p>
+                        <p>1 Iniciador</p>
+                        <p>2 Controladores</p>
+                        <p>1 Centinela</p>
+                        <p>
+                            Se usan dos controladores (por ejemplo Viper + Omen) para tener más humos,
+                            bloquear visión y controlar el mapa. Es muy fuerte para ejecutar sitios y
+                            plantar spike porque el enemigo tiene menos visión y menos espacios para defender.
+                        </p>
+                        <p><strong>Objetivo:</strong> Control total del mapa y del sitio con humos.</p>
+                    </article>
+
+                    <article class="tarjeta">
+                        <h3>Doble Duelista</h3>
+                        <p><strong>Composición:</strong></p>
+                        <p>2 Duelistas</p>
+                        <p>1 Iniciador</p>
+                        <p>1 Controlador</p>
+                        <p>1 Centinela</p>
+                        <p>
+                            Se usan dos duelistas para entrar más fuerte al sitio y conseguir kills rápido.
+                            Es una composición agresiva, muy usada en rankeds.
+                        </p>
+                        <p><strong>Objetivo:</strong> Entrar rápido y ganar peleas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meta agentes mas jugados -->
+        <section id="meta-agentes" class="seccion">
+            <div class="contenedor">
+                <div class="seccion-titulo seccion-marker">
+                    <div class="seccion-titulo-row">
+                        <span class="meta-pill">V26 - ACT 2 // COMPETITIVE</span>
+                    </div>
+                    <h2 id="meta-composiciones">Meta composiciones</h2>
+                    <p class="lead">
+                        Estas son algunas de las composiciones más utilizadas en el meta actual. Cada composición está diseñada para cumplir funciones específicas dentro del equipo, como obtener información, controlar el mapa, entrar a los sitios y defender posiciones. La elección de la composición depende del mapa, la estrategia y el estilo de juego del equipo.
+                    </p>
+                </div>
+
+                <div class="agent-table meta-table" data-meta-table="true">
+                    <div class="agent-table-header">
+                        <span>Rank</span>
+                        <span>Agents</span>
+                        <span>Win Rate</span>
+                        <span>Round Win Rate</span>
+                        <span>Matches</span>
+                    </div>
+                    <div class="agent-table-body"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Guias</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Mapas</a></li>
+                        <li><a href="#">Agentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aprende</h4>
+                    <ul>
+                        <li><a href="#">Roles</a></li>
+                        <li><a href="#">Mecanicas</a></li>
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Posicionamiento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Terminos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-brand">Valorant Strategy</div>
+                <p class="footer-note">� 2025 Valorant Strategy.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Discord"><img src="https://img.icons8.com/?size=100&id=30998&format=png&color=000000" alt="Discord"></a>
+                    <a href="#" aria-label="X"><img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000" alt="X"></a>
+                    <a href="#" aria-label="YouTube"><img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="YouTube"></a>
+                    <a href="#" aria-label="Twitch"><img src="https://img.icons8.com/?size=100&id=oRv985gg84Rj&format=png&color=000000" alt="Twitch"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
